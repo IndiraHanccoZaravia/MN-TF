@@ -1,0 +1,143 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+
+    <title>Métodos Numéricos</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+
+    <!-- Additional CSS Files 
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap2.min.css' %}"> 
+    <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome2.css' %}"> -->
+    <link rel="stylesheet" href="{% static 'css/curso.css' %}">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <!-- <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/slicknav.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/flaticon.css' %}">-->
+    <!-- <link rel="stylesheet" href="{% static 'css/progressbar_barfiller.css' %}"> -->
+    <!--<link rel="stylesheet" href="{% static 'css/gijgo.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/animate.min.css' %}">-->
+    <link rel="stylesheet" href="{% static 'css/animated-headline.css' %}">
+    <!--<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/fontawesome-all.min.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/themify-icons.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/slick.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/nice-select.css' %}">-->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    
+    <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a href="{% url '' %}" class="logo">
+                    <img src="{% static 'img/icon/log.png' %}"/>
+                </a>
+            </div>
+        </div>
+        <div class="header-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <div class = "titulo">Métodos Numéricos</div><br>
+                            <div class = "subtitulo">Raices de Polinomios</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row p-3 indice">
+                    <div class="col-12">
+                        <strong>Métodos Cerrados</strong>
+                        <ol>
+                            <li>Método de Bisección</li>
+                            <li>Método de Falsa Posición</li>
+                        </ol>
+                        <strong>Métodos Abiertos</strong>
+                        <ol>
+                            <li>Punto Fijo</li>
+                            <li>Método de la Secante</li>
+                            <li>Método de Newton-Raphson</li>
+                        </ol>
+                        <strong>Raíces de Polinomios</strong> 
+                        <ol>
+                            <li>Método de Muller</li>
+                            <li>Método de Bairstow</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="scrollable">
+                    <div class="row p-4">
+                        <div class="col-12">
+                        <p><strong>Método de Bisección</strong>
+                        <br>
+                        <a href="{% url 'biseccion' %}"><button class="button button2">Empezar</button></a></p>
+                        </div>
+                    </div>
+                    <div class="row p-4">
+                        <div class="col-12">
+                        <p><strong>Método de Falsa Posición</strong>
+                        <br>
+                        <a href="{% url 'falsaposicion' %}"><button class="button button2">Empezar</button></a></p>
+                        </div>
+                    </div>
+                    <div class="row p-4">
+                        <div class="col-12">
+                        <p><strong>Método del Punto Fijo</strong>
+                        <br>
+                        <a href="{% url 'puntofijo' %}"><button class="button button2">Empezar</button></a></p>
+                        </div>
+                    </div>
+                    <div class="row p-4">
+                        <div class="col-12">
+                        <p><strong>Método de la Secante</strong>
+                        <br>
+                        <a href="{% url 'secante' %}"><button class="button button2">Empezar</button></a></p>
+                        </div>
+                    </div>
+                    <div class="row p-4">
+                        <div class="col-12">
+                        <p><strong>Método de Newton-Raphson</strong>
+                        <br>
+                        <a href="{% url 'newton' %}"><button class="button button2">Empezar</button></a></p>
+                        </div>
+                    </div>
+                    <div class="row p-4">
+                        <div class="col-12">
+                        <p><strong>Método de Muller</strong>
+                        <br>
+                        <a href="{% url 'muller' %}"><button class="button button2">Empezar</button></a></p>
+                        </div>
+                    </div>
+                    <div class="row p-4">
+                        <div class="col-12">
+                        <p><strong>Método de Bairstow</strong>
+                        <br>
+                        <a href="{% url 'bairstow' %}"><button class="button button2">Empezar</button></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+
+</html>

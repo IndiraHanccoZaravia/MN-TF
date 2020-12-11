@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+
+    <title>Métodos Numéricos</title>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/tema.css' %}">
+    <!-- Additional CSS Files 
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap2.min.css' %}"> 
+    <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome2.css' %}"> 
+
+    <link rel="stylesheet" href="{% static 'css/tema.css' %}">
+
+    CSS here
+    <link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/slicknav.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/flaticon.css' %}">-->
+    <!-- <link rel="stylesheet" href="{% static 'css/progressbar_barfiller.css' %}"> -->
+    <!--<link rel="stylesheet" href="{% static 'css/gijgo.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animated-headline.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/fontawesome-all.min.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/themify-icons.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/slick.css' %}">-->
+    <!--<link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">-->
+    </head>
+    
+    <body>
+    <div class="container">
+        <div class="header-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <a href="{% url '' %}" class="logo">
+                                <img src="{% static 'img/icon/log.png' %}"/>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="row p-3 indice">
+                    <div class="col-12">
+                        <br>
+                        <ol>
+                            <li><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-check2-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                            <path fill-rule="evenodd" d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z"/>
+                            </svg><a href="{% url '' %}"> Introducción al tema</a></li>
+                            <hr>
+                            <li><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-check2-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                            <path fill-rule="evenodd" d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z"/>
+                            </svg><a href="{% url '' %}"> Descripción del tema</a></li>
+                            <hr>
+                            <li><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-check2-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                            <path fill-rule="evenodd" d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z"/>
+                            </svg><a href="{% url '' %}"> Ejemplos prácticos</a></li>
+                            <hr>
+                            <li><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-check2-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                            <path fill-rule="evenodd" d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z"/>
+                            </svg><a href="{% url '' %}"> Práctica Teórica</a></li>
+                            <hr>
+                            <li><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-check2-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M15.354 2.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L8 9.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                            <path fill-rule="evenodd" d="M8 2.5A5.5 5.5 0 1 0 13.5 8a.5.5 0 0 1 1 0 6.5 6.5 0 1 1-3.25-5.63.5.5 0 1 1-.5.865A5.472 5.472 0 0 0 8 2.5z"/>
+                            </svg><a href="{% url '' %}"> Ejercicios prácticos</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="scrollable">
+                    <h2>Método de Punto Fijo</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis dolor ad beatae recusandae similique officiis excepturi saepe hic, accusamus veniam, ipsa ipsum nemo error. Excepturi quas explicabo cum, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit, totam magni fugit cupiditate dolores possimus delectus velit quod accusamus id esse dignissimos. Vero modi fugiat praesentium assumenda debitis veniam?
+                    Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Itaque vel rerum iusto tempore totam maxime, explicabo fugit voluptas cupiditate cum excepturi facere animi quisquam alias, consequuntur tempora nostrum odit iste. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam officiis eligendi, et eum repellat, nesciunt soluta at vel totam quisquam minus nemo ducimus vitae similique hic minima temporibus! Dicta!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis dolor ad beatae recusandae similique officiis excepturi saepe hic, accusamus veniam, ipsa ipsum nemo error. Excepturi quas explicabo cum, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit, totam magni fugit cupiditate dolores possimus delectus velit quod accusamus id esse dignissimos. Vero modi fugiat praesentium assumenda debitis veniam?
+                    Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Itaque vel rerum iusto tempore totam maxime, explicabo fugit voluptas cupiditate cum excepturi facere animi quisquam alias, consequuntur tempora nostrum odit iste. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam officiis eligendi, et eum repellat, nesciunt soluta at vel totam quisquam minus nemo ducimus vitae similique hic minima temporibus! Dicta!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis dolor ad beatae recusandae similique officiis excepturi saepe hic, accusamus veniam, ipsa ipsum nemo error. Excepturi quas explicabo cum, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit, totam magni fugit cupiditate dolores possimus delectus velit quod accusamus id esse dignissimos. Vero modi fugiat praesentium assumenda debitis veniam?
+                    Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Itaque vel rerum iusto tempore totam maxime, explicabo fugit voluptas cupiditate cum excepturi facere animi quisquam alias, consequuntur tempora nostrum odit iste. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam officiis eligendi, et eum repellat, nesciunt soluta at vel totam quisquam minus nemo ducimus vitae similique hic minima temporibus! Dicta!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis dolor ad beatae recusandae similique officiis excepturi saepe hic, accusamus veniam, ipsa ipsum nemo error. Excepturi quas explicabo cum, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit, totam magni fugit cupiditate dolores possimus delectus velit quod accusamus id esse dignissimos. Vero modi fugiat praesentium assumenda debitis veniam?
+                    Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Itaque vel rerum iusto tempore totam maxime, explicabo fugit voluptas cupiditate cum excepturi facere animi quisquam alias, consequuntur tempora nostrum odit iste. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam officiis eligendi, et eum repellat, nesciunt soluta at vel totam quisquam minus nemo ducimus vitae similique hic minima temporibus! Dicta!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis dolor ad beatae recusandae similique officiis excepturi saepe hic, accusamus veniam, ipsa ipsum nemo error. Excepturi quas explicabo cum, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit, totam magni fugit cupiditate dolores possimus delectus velit quod accusamus id esse dignissimos. Vero modi fugiat praesentium assumenda debitis veniam?
+                    Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Itaque vel rerum iusto tempore totam maxime, explicabo fugit voluptas cupiditate cum excepturi facere animi quisquam alias, consequuntur tempora nostrum odit iste. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam officiis eligendi, et eum repellat, nesciunt soluta at vel totam quisquam minus nemo ducimus vitae similique hic minima temporibus! Dicta!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis dolor ad beatae recusandae similique officiis excepturi saepe hic, accusamus veniam, ipsa ipsum nemo error. Excepturi quas explicabo cum, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit, totam magni fugit cupiditate dolores possimus delectus velit quod accusamus id esse dignissimos. Vero modi fugiat praesentium assumenda debitis veniam?
+                    Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Itaque vel rerum iusto tempore totam maxime, explicabo fugit voluptas cupiditate cum excepturi facere animi quisquam alias, consequuntur tempora nostrum odit iste. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam officiis eligendi, et eum repellat, nesciunt soluta at vel totam quisquam minus nemo ducimus vitae similique hic minima temporibus! Dicta!
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis dolor ad beatae recusandae similique officiis excepturi saepe hic, accusamus veniam, ipsa ipsum nemo error. Excepturi quas explicabo cum, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit, totam magni fugit cupiditate dolores possimus delectus velit quod accusamus id esse dignissimos. Vero modi fugiat praesentium assumenda debitis veniam?
+                    Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Itaque vel rerum iusto tempore totam maxime, explicabo fugit voluptas cupiditate cum excepturi facere animi quisquam alias, consequuntur tempora nostrum odit iste. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam officiis eligendi, et eum repellat, nesciunt soluta at vel totam quisquam minus nemo ducimus vitae similique hic minima temporibus! Dicta!
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis dolor ad beatae recusandae similique officiis excepturi saepe hic, accusamus veniam, ipsa ipsum nemo error. Excepturi quas explicabo cum, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit, totam magni fugit cupiditate dolores possimus delectus velit quod accusamus id esse dignissimos. Vero modi fugiat praesentium assumenda debitis veniam?
+                    Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Itaque vel rerum iusto tempore totam maxime, explicabo fugit voluptas cupiditate cum excepturi facere animi quisquam alias, consequuntur tempora nostrum odit iste. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam officiis eligendi, et eum repellat, nesciunt soluta at vel totam quisquam minus nemo ducimus vitae similique hic minima temporibus! Dicta!
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+
+</html>
